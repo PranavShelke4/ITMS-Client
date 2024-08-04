@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React from "react";
 import "./HODNavbar.css";
 import {Link} from 'react-router-dom';
@@ -100,13 +102,13 @@ const classTeacherNavbar = ({user, updateUser}) => {
           </li>
 
           <li>
-            <a target="_blank" href="https://drive.google.com/drive/folders/1NO1RQzRzgENYkR39ATLQHSbxZitzxSLP?usp=sharing">
+            <a target="_blank" href="https://drive.google.com/drive/folders/1NO1RQzRzgENYkR39ATLQHSbxZitzxSLP?usp=sharing" rel="noreferrer">
               <i class="bx bx-notepad"></i>
               <span class="link_name">Result Analysis</span>
             </a>
             <ul class="sub-menu blank">
               <li>
-                <a class="link_name" target="_blank" href="https://drive.google.com/drive/folders/1NO1RQzRzgENYkR39ATLQHSbxZitzxSLP?usp=sharing">
+                <a class="link_name" target="_blank" href="https://drive.google.com/drive/folders/1NO1RQzRzgENYkR39ATLQHSbxZitzxSLP?usp=sharing" rel="noreferrer">
                 Result Analysis
                 </a>
               </li>

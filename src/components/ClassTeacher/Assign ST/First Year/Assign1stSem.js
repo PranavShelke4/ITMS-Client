@@ -1,11 +1,7 @@
-/* eslint-disable react/style-prop-object */
-/* eslint-disable jsx-a11y/iframe-has-title */
-// import React from "react";
-// import { Link } from "react-router-dom";
-// import STData from "./STData";
-// import "./AssignST.css";
+/* eslint-disable no-useless-concat */
+/* eslint-disable no-unused-vars */
 
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import axios from 'axios';
 import AssignSubjects from '../../../../api/ClassTeacher/AssignSubject';

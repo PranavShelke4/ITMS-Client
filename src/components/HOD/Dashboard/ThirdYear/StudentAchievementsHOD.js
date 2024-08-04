@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import axios from "axios";
 
 import Achievements from '../../../../api/ClassTeacher/Achievement';
 
@@ -41,7 +39,8 @@ class studentAchievement extends Component {
     }
 
     componentDidMount() {
-        Achievements.get('/get-achievements/'+"pg@gmail.com")
+        // eslint-disable-next-line no-useless-concat
+        Achievements.get('/get-achievements/' + 'pg@gmail.com')
             .then(res => {
                 this.setState({ achievements: res.data })
             })

@@ -21,10 +21,10 @@ function eventHandle() {
 }
 const classTeacherNavbar = ({user, updateUser}) => {
   let assign = "";
-  if(user.email == "a1@gmail.com"){
+  if(user.email === "a1@gmail.com"){
     assign = "/CT/assign-1st-sem";
   }
-  else if(user.email == "pf@gmail.com"){
+  else if(user.email === "pf@gmail.com"){
     assign = "/CT/assign-3rd-sem";
   }else{
     assign = "/CT/assign-5th-sem";

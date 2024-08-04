@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import axios from "axios";
 import './studentAchievement.css';
 
 import Achievements from '../../../api/ClassTeacher/Achievement';

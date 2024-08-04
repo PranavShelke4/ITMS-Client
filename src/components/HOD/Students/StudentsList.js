@@ -1,15 +1,15 @@
+/* eslint-disable no-unused-vars */
+
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import axios from "axios";
 //import './ExercisesList.css';
 import "../../../components/ClassTeacher/Students/students.css";
 
 import Studentlists from '../../../api/ClassTeacher/Studentlist';
 
 function CheckYr(user){
-    if(user == "a1@gmail.com"){
+    if(user === "a1@gmail.com"){
         return "First ";
-    }else if(user == "pf@gmail.com"){
+    }else if(user === "pf@gmail.com"){
         return "Second ";
     }else{
         return "Third ";

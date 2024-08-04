@@ -32,7 +32,7 @@ import TYFeedbackPage from "./pages/HODPages/TYFeedbackPAge";
 
 // Class Teacher Routes
 
-import CTNavbar from "./components/ClassTeacher/classTeacherNavbar";
+// import CTNavbar from "./components/ClassTeacher/classTeacherNavbar";
 import CTDashboard from "./pages/CTPages/Dashboard";
 import AddAchievement from "./pages/CTPages/AddAchievement";
 import EditAchievementPage from "./pages/CTPages/EditAchievementPage";

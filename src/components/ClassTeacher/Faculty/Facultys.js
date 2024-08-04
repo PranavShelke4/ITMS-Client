@@ -71,6 +71,7 @@ function Facultys(props) {
                     <img
                       className="facultyImg"
                       src={item.Image}
+                      alt="img"
                     />{" "}
                   </td>
                   <td>{item.Name}</td>

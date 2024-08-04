@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
+
 import React,{useEffect, useState} from 'react'
 import { useForm } from "react-hook-form";
-import { useParams } from "react-router-dom";
 import '../../SubjectTeacher/My Details/profile.css';
 import axios from "axios";
 

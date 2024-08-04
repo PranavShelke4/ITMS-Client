@@ -1,7 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React,{useEffect, useState} from 'react'
 import { useForm } from "react-hook-form";
-import Exercise from "../../../api/SubjectTeacher/Exercise";
-import { useParams } from "react-router-dom";
+// import Exercise from "../../../api/SubjectTeacher/Exercise";
+// import { useParams } from "react-router-dom";
 import './profile.css';
 import axios from "axios";
 

@@ -1,6 +1,7 @@
+/* eslint-disable no-useless-concat */
+/* eslint-disable no-unused-vars */
+
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import axios from "axios";
 
 import Achievements from '../../../../api/ClassTeacher/Achievement';
 

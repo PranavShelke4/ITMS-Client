@@ -1,4 +1,7 @@
-import React, { Component, useState } from 'react';
+/* eslint-disable no-useless-concat */
+/* eslint-disable no-unused-vars */
+
+import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import axios from 'axios';
 import AssignSubjects from '../../../../api/ClassTeacher/AssignSubject';

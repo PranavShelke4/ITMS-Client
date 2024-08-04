@@ -2,9 +2,9 @@ import React from "react";
 import "./myClassDetails.css";
 
 function CheckTeacher(email){
-  if(email == "pg@gmail.com"){
+  if(email === "pg@gmail.com"){
     return "Third Year ";
-  }else if(email == "pf@gmail.com"){
+  }else if(email === "pf@gmail.com"){
     return "Second Year ";
   }else{
     return "First Year ";

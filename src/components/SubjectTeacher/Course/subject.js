@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
+
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
 import { Dropdown } from 'react-bootstrap';
 import './subject.css';
 

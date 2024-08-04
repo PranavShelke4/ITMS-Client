@@ -1,3 +1,6 @@
+/* eslint-disable no-useless-concat */
+/* eslint-disable no-unused-vars */
+
 import React,{useState} from 'react'
 import { useForm } from "react-hook-form";
 // import { useHistory } from "react-router-dom";
